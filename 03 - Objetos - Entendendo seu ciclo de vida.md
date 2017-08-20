@@ -137,9 +137,3 @@ print(id(my_tuple))
 ```
 
 Esse é o ciclo de vida dos objetos no Python. Nos próximos capítulos vamos abordar como criar nossos objetos customizados.
-
-Mutáveis: Objetos que podemos alterar e não criaram uma nova instancia do mesmo.
-
-
-
-Imutáveis: Objetos que não podemos alterar, para isso precisamos criar uma cópia do mesmo.
