@@ -101,4 +101,45 @@ print(name)
 NameError: name 'name' is not defined
 ```
 
+## Objetos Mutáveis e Imutáveis
+
+Em Python temos dois tipos de objetos:
+
+1. **Mutáveis**: Podemos mudar o valor e o mesmo não irá receber um novo id.
+2. **Imutáveis**: Não podemos mudar o valor, para isso precismos criar uma cópia modificada do mesmo.
+
+Exemplo com objetos mutáveis:
+
+```python
+# lista é um tipo mutável
+my_list = [1, 2]
+
+print(id(my_list))
+>>> 140402788344968
+
+my_list += [3, 4]
+
+print(id(my_list))
+>>> 140402788344968
+```
+
+Exemplo com objetos imutáveis:
+
+```python
+# tupla é um tipo imutável
+my_tuple = (1, 2,)
+print(id(my_tuple))
+>>> 140402778836488
+
+my_tuple += (3, 4,)
+print(id(my_tuple))
+>>> 140402800332536
+```
+
 Esse é o ciclo de vida dos objetos no Python. Nos próximos capítulos vamos abordar como criar nossos objetos customizados.
+
+Mutáveis: Objetos que podemos alterar e não criaram uma nova instancia do mesmo.
+
+
+
+Imutáveis: Objetos que não podemos alterar, para isso precisamos criar uma cópia do mesmo.
