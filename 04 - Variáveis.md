@@ -27,6 +27,10 @@ print(f'Meu nome é {name} e eu tenho {age} ano(s) de idade.')
 >>> Meu nome é Giovanna e eu tenho 22 ano(s) de idade.
 ```
 
+
+
+# Constantes
+
 Em Python não conseguimos criar valores contantes, ou seja, não existe um palavra-chave como **final** do Java, que indica ao interpretador (no caso do Python) que aquela variável não pode ter o valor alterado.
 
 Mas podemos dizer ao programador através de convenção que aquela variável deve se comportar como uma constante. Para fazer isso, você deve criar a váriavel com o nome todo em letras maíusculas:
@@ -35,3 +39,9 @@ Mas podemos dizer ao programador através de convenção que aquela variável de
 ABS_PATH = '/home/guilherme/Documents/PythonCourse/'
 ```
 
+
+
+## Exercícios
+
+1. Criei um programa para armazenar as informações de um livro em variáveis, precisamos armazenar as seguintes informações: título, autor, ano de publicação, número de páginas e editora.
+2. Altere o programa do exercício anterior, e adicione uma constante para o número de páginas do livro.
