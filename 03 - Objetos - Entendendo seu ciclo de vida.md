@@ -35,7 +35,7 @@ No próximo capítulo vamos discutir sobre variáveis mutáveis e imutáveis e c
 3. Acesso e manipulação
 4. Destruição
 
-###1 - Definição
+### 1 - Definição
 
 ```python
 # Quando declaramos um valor o python cria em sua tabela de referência um código para o objeto
