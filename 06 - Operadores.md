@@ -4,16 +4,18 @@ Existem dois tipos de operadores, os aritméticos e os lógicos. Os operadores a
 
 Os seguintes operadores aritméticos estão disponíveis em Python:
 
-| Símbolo | Função        | Tipo de dado |
-| ------- | ------------- | ------------ |
-| +       | Adição        | Numéricos    |
-| -       | Subtração     | Numéricos    |
-| /       | Divisão       | Numéricos    |
-| *       | Multiplicação | Numéricos    |
-| **      | Potenciação   | Numéricos    |
-| %       | Módulo        | Numéricos    |
-| +       | Concatenar    | Strings      |
-| *       | Repetir       | Strings      |
+| Símbolo | Função        | Tipo de dado  |
+| ------- | ------------- | ------------- |
+| +       | Adição        | Numéricos     |
+| -       | Subtração     | Numéricos     |
+| /       | Divisão       | Numéricos     |
+| *       | Multiplicação | Numéricos     |
+| **      | Potenciação   | Numéricos     |
+| %       | Módulo        | Numéricos     |
+| +       | Concatenar    | Strings       |
+| *       | Repetir       | Strings       |
+| +       | Concatenar    | Lists, Tuples |
+| *       | Gerar         | Lists, Tuples |
 
 Perceba que os operadores **+ e *** possuem funcionalidades diferentes de acordo com o tipo de dados no qual os mesmos estão interagindo. Vamos escrever alguns exemplos:
 
@@ -43,6 +45,19 @@ Perceba que os operadores **+ e *** possuem funcionalidades diferentes de acordo
 
 'a'*3
 >>> 'aaa'
+
+# Trabalhando com lists/tuples (operadores sobrecarregados)
+[1, 3]+[2, 5]
+>>> [1, 3, 2, 5]
+
+[1, 2]*3
+>>> [1, 2, 1, 2, 1, 2]
+
+(1, 3)+(2, 5)
+>>> (1, 3, 2, 5)
+
+(1, 2)*3
+>>> (1, 2, 1, 2, 1, 2)
 ```
 
 Vamos agora analisar os operadores lógicos. Os operadores lógicos são usados quando queremos fazer algum tipo de comparação entre dois valores, como por exemplo: quem é maior, quem é menor, são iguais, são diferentes.

@@ -53,6 +53,19 @@ import fractions
 my_value = fractions.Fraction(1, 3)
 print(type(my_value))
 >>> fractions.Fraction
+
+# Conversão de números
+int(1.56)
+>>> 1
+
+float(9)
+>>> 9.0
+
+100 + 10.0
+>>> 110.0
+
+int(100 + 10.0)
+>>> 110
 ```
 
 ## Strings

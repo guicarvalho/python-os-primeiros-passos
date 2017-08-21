@@ -74,4 +74,5 @@ Existem muitos outros métodos úteis na classe Str, abra o terminal consulte a 
 
 ## Exercícios
 
-1. Crie um programa que use pelo menos 22 métodos da classe str. Insira alguns comentários explicando o que cada método faz.
+1. Crie um programa que use pelo menos 5 métodos (que não usamos ainda) da classe str. Insira alguns comentários explicando o que cada método faz.
+
