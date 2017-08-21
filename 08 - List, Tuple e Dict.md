@@ -113,7 +113,7 @@ my_dict = {
     'name': 'Araraquara',
     'uf': 'São Paulo',
   },
-  languages: ['Python', 'Android', 'Java'],
+  'languages': ['Python', 'Android', 'Java'],
 }
 
 # Acessando os itens
@@ -163,7 +163,7 @@ my_dict = OrderedDict({
     'name': 'Araraquara',
     'uf': 'São Paulo',
   },
-  languages: ['Python', 'Android', 'Java']
+  'languages': ['Python', 'Android', 'Java']
 })
 
 print(my_dict)
