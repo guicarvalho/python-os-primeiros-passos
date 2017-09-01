@@ -110,8 +110,12 @@ Para trabalhar apenas com horas, podemos fazer o uso do módulo time https://doc
 
 ```python
 import locale
+
+import os
+
 from datetime import timedelta
-from time import strftime, strptime, localtime, gmtime, mktime
+
+from time import strftime, strptime, localtime, gmtime, mktime, time, tzset
                                
 locale.setlocale(locale.LC_ALL, 'pt_BR.utf8')
 
@@ -127,7 +131,12 @@ struct_time = time.gmtime(now_sec)
 print(struct_time, now_sec)
 
 # Somando uma hora
-add_hour = gmtime(now_sec + 3600)
+now = time()
+new = now + (60 * 60)
+now = gmtime(now)
+new = gmtime(new)
+print(strftime('%H:%M:%S', now))
+print(strftime('%H:%M:%S', new))
 
 # Calculando a diferença
 t1 = mktime(strptime('2 Out 17', '%d %b %y'))
