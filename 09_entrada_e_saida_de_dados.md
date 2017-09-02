@@ -104,6 +104,7 @@ with open('cars.csv', 'r') as f:
             headers = row
         else:
             data.append(row)
+    print(tabulate(data, headers, tablefmt='grid'))
 ```
 
 Execute o programa:
