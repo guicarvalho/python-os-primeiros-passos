@@ -15,17 +15,19 @@ O curso está dividido em **24 capítulos**, onde todos os conceitos básicos da
 9. [Entrada e saída de dados](09_entrada_e_saida_de_dados.md)
 10. [For, While e Range](10_for_while_range.md)
 11. [Funções](11_funcoes.md)
-12. Módulos
+12. [Módulos](12_modulos.md)
 13. [Data e hora](13_data_hora.md)
 14. [Programação funcional](14_programacao_funcional.md)
-15. Decorators
+15. [Decorators](15_decorators.md)
 16. [Introdução POO](16_introducao_poo.md)
 17. [Classes](17_classes.md)
 18. [Modificadores de acesso](18_modificadores_acesso.md)
 19. [Propriedades](19_propriedades.md)
-20. Classes Abertas
-21. Herança
-22. Sobrecarga
-23. Polimorfismo
-24. MetaClasses
+20. [Classes Abertas](20_classes_abertas.md)
+21. [Herança](heranca.md)
+22. [Sobrecarga](22_sobrecarga.md)
+23. [Polimorfismo](23_polimorfismo.md)
+24. [MetaClasses](24_metaclasses.md)
+25. [SQLite 3](25_sqlite3.md)
+
 
