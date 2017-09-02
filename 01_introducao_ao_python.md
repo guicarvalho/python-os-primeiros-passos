@@ -1,5 +1,5 @@
 # Introdução ao Python
-Python foi criado em 1995 por Guido Van Rossum, na universidade $%! na Holanda. O principal intuito da linguagem era ser fácil de aprender e divertida para o programador.
+Python foi criado em 1995 por Guido Van Rossum. O principal intuito da linguagem era ser fácil de aprender e divertida para o programador.
 
 Com o passar do anos foi ganhando mais adeptos e foi se estendendo a vários campos de utilização (web, desktop, mobile, IoT, etc). Empresas como Google, Globo.com tem grande parte de seus produtos implementados em Python.
 
