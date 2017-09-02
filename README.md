@@ -2,7 +2,7 @@
 
 Esse é o material do curso Python Primeiros Passos. Esse curso é pensado para programadores que já conhecem lógica de programação e que possuem pouca ou nenhuma experiência em Python.
 
-O curso está dividido em **24 capítulos**, onde todos os conceitos básicos da linguagem serão discutidos. Abaixo está a ementa do curso:
+O curso está dividido em **25 capítulos**, onde todos os conceitos básicos da linguagem serão discutidos. Abaixo está a ementa do curso:
 
 1. [Introdução ao Python](01_introducao_ao_python.md)
 2. [Configurando o ambiente](02_configurando_o_ambiente.md)
@@ -29,5 +29,3 @@ O curso está dividido em **24 capítulos**, onde todos os conceitos básicos da
 23. [Polimorfismo](23_polimorfismo.md)
 24. [MetaClasses](24_metaclasses.md)
 25. [SQLite 3](25_sqlite3.md)
-
-
