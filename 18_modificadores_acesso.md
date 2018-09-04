@@ -18,7 +18,7 @@ No exemplo acima definimos uma classe chama *Person*, que contém três atributo
 2. age inícia com um underscore que significa que não é uma boa acessarmos o seu valor diretamente, e muito menos alterar diretamente.
 3. nickname está iniciando com dois underscore, estamos evitando que haja conflito de nomes.
 
-Como dizemos a pouco, tudo é baseado em convenção, então não existe uma forma explicita de evitar que o programador acesse sua variável. Então vamos ver como podemos acessar os valores criados acima.
+Como dissemos a pouco, tudo é baseado em convenção, então não existe uma forma explicita de evitar que o programador acesse sua variável. Então vamos ver como podemos acessar os valores criados acima.
 
 ```python
 p = Person()
